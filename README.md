@@ -2,12 +2,6 @@
 
 This github repository includes jupyter notebooks for reproducing all plots in the paper, and R scripts for sequencing data analysis, in [scripts/](scripts)
 
-Raw and processed data inputs for plotting are in [data/](data)
-
-Tables in `.tsv` format used as inputs to pair samples in scripts are in [tables/](tables)
-
-Final figures are in [figures/](figures)
-
 ## Table of Contents
 
 - [Annotation files](#annotation-files)
