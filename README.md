@@ -1,6 +1,6 @@
 # Code for analysis : Darnell, Subramaniam, and O'Shea 2018
 
-This github repository includes jupyter notebooks for reproducing all plots in the paper, and R scripts for sequencing data analysis, in [scripts/](scripts)
+This github repository includes jupyter notebooks (and associated static HTML files) for reproducing all plots in the paper, and R scripts for sequencing data analysis, in [scripts/](scripts)
 
 ## Table of Contents
 
@@ -10,13 +10,12 @@ This github repository includes jupyter notebooks for reproducing all plots in t
 
 ## Annotation files
 
-The following bowtie indices / annotation files should be downloaded to new folders called `bowtie_indices` and `sequence_annotation_files` before running the script below. 
+The following bowtie indices / annotation files should be generated in new folders called `bowtie_indices` and `sequence_annotation_files` before running the script below. These files are not provided in the repository due to their large size, but instructions for generating them are included below.
+ 
 * bowtie index for subtractive alignment of rRNA contaminants: `hg38.rrna`
 * transcriptome rsem reference bowtie index for alignment: `genome_rsem/hg38.gencode.v24.rsem/bowtie`
 * annotations in fai format for preparing transcriptome rsem reference bowtie index: `hg38.fa.masked`
 * canonical CCDS susbet annotations for assigning reads after alignment: `gencode.v24.canonical_ccds_transcripts.20170315.gff3`
-
-These files are not provided in the repository due to their large size, but instructions for generating them are included below. 
 
 ## Generating bowtie indices and annotation files
 
