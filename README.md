@@ -15,7 +15,7 @@ The following bowtie indices / annotation files should be generated in new folde
 * bowtie index for subtractive alignment of rRNA contaminants: `hg38.rrna`
 * transcriptome rsem reference bowtie index for alignment: `genome_rsem/hg38.gencode.v24.rsem/bowtie`
 * annotations in fai format for preparing transcriptome rsem reference bowtie index: `hg38.fa.masked`
-* canonical CCDS susbet annotations for assigning reads after alignment: `gencode.v24.canonical_ccds_transcripts.20170315.gff3`
+* canonical CCDS subset annotations for assigning reads after alignment: `gencode.v24.canonical_ccds_transcripts.20170315.gff3`
 
 ## Generating bowtie indices and annotation files
 
@@ -55,7 +55,7 @@ Rscript make_unique_ccds_transcripts.R
 from Bio import Entrez
 from Bio import SeqIO
 
-Entrez.email = 'rasi1983@gmail.com'
+Entrez.email = 'YOUR_EMAIL_ADDRESS@XYZ.EDU'
 
 refseqids = {'28S' : 'NR_003287.2',
              '18S' : 'NR_003286.2',
@@ -135,7 +135,7 @@ done
 
 for SAMPLE in `ls processeddata/*/*.norrna.fq | cut -f1 -d. | cut -f2 -d/`; 
 do
-    /n/osheafs1/LAB/alicia/bioinformatics/RSEM-1.3.0/rsem-calculate-expression --num-threads 8 --output-genome-bam --sort-bam-by-coordinate  processeddata/$SAMPLE/$SAMPLE.norrna.fq /n/osheafs1/LAB/alicia/bioinformatics/bowtie_indices/genome_rsem/hg38.gencode.v24.rsem/bowtie processeddata/$SAMPLE/gencode; 
+    rsem-calculate-expression --num-threads 8 --output-genome-bam --sort-bam-by-coordinate  processeddata/$SAMPLE/$SAMPLE.norrna.fq /n/osheafs1/LAB/alicia/bioinformatics/bowtie_indices/genome_rsem/hg38.gencode.v24.rsem/bowtie processeddata/$SAMPLE/gencode; 
 done
 ```
 ### Calculate codon-specific ribosome density
