@@ -1,0 +1,17 @@
+top	bottom	plotaa	plotnumber	perturblevel
+hct116_arg_3h	hct116_rich_3h	R	1	1
+hct116_leu_3h	hct116_rich_3h	L	1	1
+hela_arg_mono_3h	hela_rich_mono_3h	R	1	1
+hela_leu_mono_3h	hela_rich_mono_3h	L	1	1
+293t_hrgfp_arg_3h	293t_hrgfp_rich_3h	R	1	1
+293t_hrgfp_leu_3h	293t_hrgfp_rich_3h	L	1	1
+293t_arg_6h	293t_rich_6h	R	2	1
+293t_leu_6h	293t_rich_6h	L	2	1
+hrgfp_arg_6h	hrgfp_rich_6h	R	2	2
+hrgfp_leu_6h	hrgfp_rich_6h	L	2	2
+ragbq99l_arg_6h	ragbq99l_rich_6h	R	2	3
+ragbq99l_leu_6h	ragbq99l_rich_6h	L	2	3
+gcn2ko_arg_6h	gcn2ko_rich_6h	R	2	4
+gcn2ko_leu_6h	gcn2ko_rich_6h	L	2	4
+293t_hrgfp_argtorin1_3h	293t_hrgfp_richtorin1_3h	R	3	1
+293t_hrgfp_leutorin1_3h	293t_hrgfp_richtorin1_3h	L	3	1

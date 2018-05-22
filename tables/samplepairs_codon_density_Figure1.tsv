@@ -1,0 +1,9 @@
+top	bottom	plotaa	plotnumber	perturblevel
+hct116_arg_3h	hct116_rich_3h	R	1	1
+hct116_leu_3h	hct116_rich_3h	L	1	1
+hela_arg_mono_3h	hela_rich_mono_3h	R	1	1
+hela_leu_mono_3h	hela_rich_mono_3h	L	1	1
+293t_rpC_arg_3h	293t_rpC_rich_3h	R	2	1
+293t_rpC_leu_3h	293t_rpC_rich_3h	L	2	1
+293t_rpC_arg_6h	293t_rpC_rich_3h	R	2	2
+293t_leu_6h	293t_rich_6h	L	2	2
