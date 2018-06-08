@@ -1,0 +1,16 @@
+Black is 0, White is 65535
+
+#	IDV	% *	Area	Average	Background	
+
+1n	4051752	17.4	6411	632	0	
+2n	3237555	13.9	6411	505	0	
+3n	3391419	14.5	6411	529	0	
+4n	2636814	11.3	4038	653	0	
+5n	2305698	9.9	4038	571	0	
+6n	2152254	9.2	4038	533	0	
+7n	1788834	7.7	4038	443	0	
+8n	1909974	8.2	4038	473	0	
+9n	1857480	8.0	4038	460	0	
+
+IDV = Integrated Density Value
+* Based on Integrated Density Value

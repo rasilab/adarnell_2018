@@ -1,0 +1,13 @@
+cellines,samplelabel,relative_poly_fraction,sampleorder
+hrGFP,Rich,1,4
+hrGFP,-Leu,0.665861446,5
+hrGFP,-Arg,0.730189895,6
+RagB-Q99L,Rich,1,7
+RagB-Q99L,-Leu,0.861275217,8
+RagB-Q99L,-Arg,0.822632146,9
+GCN2 KO,Rich,1,10
+GCN2 KO,-Leu,1.171965619,11
+GCN2 KO,-Arg,1.482983118,12
+WT,Rich,1,1
+WT,-Leu,0.756153634,2
+WT,-Arg,0.815861963,3

@@ -1,0 +1,13 @@
+pulselength_min,time,cellline,samplelabel,relative_puroincorporation
+5,1.5,293T WT,Rich,1
+5,3,293T WT,Rich,1
+5,6,293T WT,Rich,1
+5,12,293T WT,Rich,1
+5,1.5,293T WT,-Leu,0.794204129
+5,3,293T WT,-Leu,0.581748996
+5,6,293T WT,-Leu,0.44756739
+5,12,293T WT,-Leu,0.48961039
+5,1.5,293T WT,-Arg,0.545658036
+5,3,293T WT,-Arg,0.408195378
+5,6,293T WT,-Arg,0.279563138
+5,12,293T WT,-Arg,0.283848272
