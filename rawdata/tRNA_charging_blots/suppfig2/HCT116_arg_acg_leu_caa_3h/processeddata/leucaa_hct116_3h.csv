@@ -1,1 +1,4 @@
-﻿trna,cell_line,samplelabel,mean_chargedfractionCAA,HCT116,Rich,0.860244442CAA,HCT116,-Leu,0.775560392CAA,HCT116,-Arg,0.865564259
+trna,cell_line,samplelabel,mean_chargedfraction
+CAA,HCT116,Rich,0.860244442
+CAA,HCT116,-Leu,0.775560392
+CAA,HCT116,-Arg,0.865564259
