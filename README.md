@@ -16,6 +16,7 @@ The following bowtie indices / annotation files should be generated in new folde
 * transcriptome rsem reference bowtie index for alignment: `genome_rsem/hg38.gencode.v24.rsem/bowtie`
 * annotations in fai format for preparing transcriptome rsem reference bowtie index: `hg38.fa.masked`
 * canonical CCDS subset annotations for assigning reads after alignment: `gencode.v24.canonical_ccds_transcripts.20170315.gff3`
+* mouse gencode annotations for matching ATF4/CHOP targets to human homologs: `gencode.vM9.annotation.gff3.gz`
 
 ## Generating bowtie indices and annotation files
 
@@ -25,7 +26,6 @@ The following bowtie indices / annotation files should be generated in new folde
 - samtools/1.4.0
 - gzip/1.3.12
 - R/3.3.3
-- tophat/2.0.14
 - python/2.7.13
 
 ### Download, unzip, and index hg38 genome annotations (hg38.fa.masked)
@@ -48,6 +48,11 @@ gunzip gencode.v24.annotation.gff3.gz
 ```
 ```bash
 Rscript make_unique_ccds_transcripts.R
+```
+
+### Download mouse Gencode annotations
+```bash
+wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M17/gencode.vM17.annotation.gff3.gz
 ```
 
 ### Download rRNA sequences from NCBI, write to fasta, and create human rRNA bowtie index
