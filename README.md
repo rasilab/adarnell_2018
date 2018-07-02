@@ -52,7 +52,7 @@ Rscript make_unique_ccds_transcripts.R
 
 ### Download mouse Gencode annotations
 ```bash
-wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M17/gencode.vM17.annotation.gff3.gz
+wget ftp://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M9/gencode.vM9.annotation.gff3.gz
 ```
 
 ### Download rRNA sequences from NCBI, write to fasta, and create human rRNA bowtie index
